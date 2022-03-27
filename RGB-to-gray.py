@@ -1,7 +1,7 @@
 import cv2
 
 img = cv2.imread("Wall-E.jpg")
-img.shape
+print(img.shape)
 gray1 = img[:, :, 0]
 gray2 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
