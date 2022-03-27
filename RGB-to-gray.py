@@ -2,8 +2,8 @@ import cv2
 
 img = cv2.imread("Wall-E.jpg")
 print("ShapeOfImage =", img.shape)
-gray1 = img[:, :, 0]
-gray2 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+gray1 = img[:, :, 0]    # use concept to convert
+gray2 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # use cvtColor to convert
 
 cv2.imshow("my img", img)
 cv2.imshow("gray1", gray1)
